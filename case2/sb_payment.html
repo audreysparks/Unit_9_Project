@@ -148,20 +148,34 @@
    required>
    <label for="monthList">Expiration Date</label>
    <select name="cardMonth" id="monthList" required>
-         <option value=""></option>
-         <option value=""></option>
-         <option value=""></option>
-         <option value=""></option>
-         <option value=""></option>
-         <option value=""></option>
-         <option value=""></option>
-         <option value=""></option>
-         <option value=""></option>
-         <option value=""></option>
-         <option value=""></option>
-         <option value=""></option>
+         <option value="January(01)">January(01)</option>
+         <option value="February(02)">February(02)</option>
+         <option value="March(03)">March(03)</option>
+         <option value="April(04)">April(04)</option>
+         <option value="May(05)">May(05)</option>
+         <option value="June(06)">June(06)</option>
+         <option value="July(07)">July(07)</option>
+         <option value="August(08)">August(08)</option>
+         <option value="September(09)">September(09</option>
+         <option value="October(10)">October(10)</option>
+         <option value="November(11)">November(11)</option>
+         <option value="December(12)">December(12)</option>
    </select>
+   <select name="cardYear" id="yearList" required>
+      <option value="">2017</option>
+      <option value="">2018</option>
+      <option value="">2019</option>
+      <option value="">2020</option>
+      <option value="">2021</option>
+      <option value="">2022</option>
+      <option value="">2023</option>
+   </select>
+   <label for="cscBox">CSC</label>
+   <input name="cscBox" id="cscBox" type="text" pattern="^\d{3}$" maxlength="3" placeholder="nnn" required>
 </fieldset>
+<button>
+   <img src="sb_button.png" alt="next">
+</button>
       </form>
       
       <aside>
